@@ -25,4 +25,11 @@ class GuessingNumberGameTest {
 
     assertEquals(player.guessNumber(4), "✚ The guess number is higher");
   }
+
+  @Test
+  void should_show_that_number_is_lower_if_the_player_did_not_guess_right() {
+    GuessingNumberGame player = new GuessingNumberGame(new StubRandomNumberGenerator(5));
+
+    assertEquals(player.guessNumber(6), "- The guess number is lower");
+  }
 }
