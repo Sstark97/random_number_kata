@@ -11,6 +11,6 @@ public class GuessingNumberGame {
     } else if (generator > guessedNumber) {
       return "✚ The guess number is higher";
     }
-    return "";
+    return "- The guess number is lower";
   }
 }
