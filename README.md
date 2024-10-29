@@ -1,5 +1,6 @@
 # Random Number Kata
-We want to create a small game. The game consists of a player trying to guess a random number. The player will have three attempts to guess the number. If the number is correctly guessed, then the player wins, if not, the player loses.
+We want to create a small game. The game consists of a player trying to guess a random number. 
+The player will have three attempts to guess the number. If the number is correctly guessed, then the player wins, if not, the player loses.
 
 If the player fails to guess the number, the game must notify the user if the number it's higher or lower.
 
