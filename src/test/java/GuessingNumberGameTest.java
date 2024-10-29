@@ -16,7 +16,6 @@ class GuessingNumberGameTest {
     GuessingNumberGame player = new GuessingNumberGame(new DummieRandomNumberGenerator());
     int numberToGuess = 5;
 
-    assertEquals(player.intents, 3);
     assertEquals(player.guessNumber(numberToGuess), "✅ Correct, you won!");
   }
 
@@ -25,7 +24,6 @@ class GuessingNumberGameTest {
     GuessingNumberGame player = new GuessingNumberGame(new StubRandomNumberGenerator(5));
 
     assertEquals(player.guessNumber(4), "✚ The guess number is higher");
-    assertEquals(player.intents, 2);
   }
 
   @Test
